@@ -7,11 +7,18 @@
     font-family: var(--font-primary);
 }
 body{
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
+    background-image: url(bg4.webp);
+    background-repeat: 
+    no-repeat;
+    background-position: centre;
+    background-size: cover;
+    
 }
 nav{
     background-color: #fff;
     padding: 12px 0;
+    color: gold;
 }
 .navbar{
     display: flex;
@@ -205,5 +212,8 @@ footer > p{
 .footer-bottom p {
     margin: 0;
     font-size: 14px;
+}
+footer{
+    background-image: url(bg4.webp);
 }
 

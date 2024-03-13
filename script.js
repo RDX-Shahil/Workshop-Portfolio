@@ -42,3 +42,4 @@ function isValidEmail(email) {
     var emailRegex = /\S+@\S+\.\S+/;
     return emailRegex.test(email);
 }
+

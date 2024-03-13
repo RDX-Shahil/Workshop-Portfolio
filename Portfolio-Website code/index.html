@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shahil Ahamad</title>
+       <!-- google fonts -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link
+           href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+           rel="stylesheet">
+   
+       <!-- font awesome -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+           integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+           crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="profile2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+    <nav class="site-navbar">
+      <div class="navbar">
+        <div class="left-side">
+          <a href="#">
+            <b>Shahil Ahamad</b>
+          </a>
+        </div>
+        <div class="right-side">
+          <ul class="menu" id="main-menu">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">Services</a>
+            </li>
+            <li>
+              <a href="project.html" target="_blank">Project</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
+            <li>
+              <a href="resume.jpg" target="_blank">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    </header>
+    <!-- end of navbar section -->
+    <div class="hero-section">
+      <div class="hero-section-wrapper">
+        <div class="hero-left-side">
+          <img src="profile3.jpg" />
+        </div>
+        <div class="hero-right-side">
+          <h1 class="hero-title">
+            Hi, Myself Shahil Ahamad, A
+            <span class="highlight">Beginner</span> FullStack Developer
+          </h1>
+          <p>
+            As a student embarking on the journey of self-discovery and academic
+            growth, I Shahil Ahamad embodies a spirit of curiosity,
+            determination, and a thirst for knowledge. I am from
+            Rupandehi,Butwal City , Nepal and I am Currently in grade 12,
+            approaching my studies with enthusiasm and a commitment to
+            excellence, setting a shining example for my peers.I am a beginer
+            web Developer and I know a small amount of web development
+            knowledge. I am Currently reading in<a href="https://www.deepboarding.edu.np/" target="_blank"> Deep Boarding Higher Secondary
+            School.</a>
+          </p>
+          <p>
+
+          </p>
+          <br />
+          <h2><b>Contact Me:</b></h2>
+          <div class="icons">
+            <a
+              href="https://www.facebook.com/shahil.ahamad.3576"
+              target="_blank"
+              class="fb"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/shahilahamad04/"
+              target="_blank"
+              class="insta"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://github.com/RDX-Shahil" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com/ShahilAhamad40"> <i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of hero section -->
+    <div class="services">
+      <div class="services-wrapper">
+        <div class="section-title-area">
+          <h2 class="section-title">Services</h2>
+          <p>I am offering following Services..</p>
+        </div>
+        <div class="services-list">
+          <div class="service">
+            <div>
+                <i class="fa-solid fa-code"></i>
+            </div>
+            <h2 class="service-title">Web Development</h2>
+            <p>
+              I am Beginner Developer,So I only have low knowledge of web development. I am Learning Day by Day.
+            </p>
+          </div>
+          <div class="service">
+            <div>
+              <i class="fa-solid fa-house home"></i>
+            </div>
+            <h2 class="service-title">Home</h2>
+            <p>
+                I am From Nepal,Rupandehi district,Butwal City,Nepalgunj_Road-5
+            </p>
+          </div>
+          <div class="service">
+            <div>
+              <i class="fa-solid fa-earth-americas"></i>
+            </div>
+            <h2 class="service-title">Social Media</h2>
+            <p>
+                Connect with me to know my upcoming Projects.This Portfolio is my First Project.I am a Student/Developer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of services -->
+    <div class="contact-form">
+      <div class="contact-form-wrapper">
+        <div class="section-title-area">
+          <h2 class="section-title">
+            Contact <span class="highlight">Me</span>!
+          </h2>
+          <p>Send me a message</p>
+        </div>
+        <form id="contactForm" onsubmit="return validateForm()">
+          <div class="form-group">
+            <label for="name">Enter your name:</label>
+            <input
+              type="text"
+              name="fname"
+              id="name"
+              placeholder="Enter your fullname."
+            />
+            <span id="nameError" style="color: red"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Enter your email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email."
+            />
+            <span id="emailError" style="color: red"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Enter your Message:</label>
+            <textarea name="message" id="message"></textarea>
+            <span id="messageError" style="color: red"></span>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Send Message" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- contact form end -->
+    <!-- <footer class="main-footer">
+        <h2 class="footer-title">
+            Shahil
+        </h2>
+        <p>
+            &copy; Shahil Ahamad - 2024
+        </p>
+    </footer> -->
+    <footer class="main-footer">
+      <div class="footer-content">
+        <h2 class="footer-title">SHAHIL AHAMAD</h2>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Shahil Ahamad. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

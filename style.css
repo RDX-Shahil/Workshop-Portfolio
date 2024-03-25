@@ -60,7 +60,7 @@ nav{
     color: initial;
     font-size: 25px;
 }
-.hero-section-wrapper{
+.profile-section-wrapper{
     width: 85%;
     margin: auto;
     padding: 80px 0; 
@@ -70,21 +70,21 @@ nav{
     */
     display: flex;
 }
-.hero-left-side{
+.profile-left-side{
     width: 50%;
 }
-.hero-left-side > img{
+.profile-left-side > img{
     width: 89%;
     aspect-ratio: 3/4;
     object-fit: cover;
 }
-.hero-right-side{
+.profile-right-side{
     width: 50%;
 }
-.hero-title{
+.profile-title{
     font-size: 40px;
 }
-.hero-right-side > p{
+.profile-right-side > p{
     margin: 25px 0;
 }
 .icons >a> i{
